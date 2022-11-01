@@ -1,0 +1,35 @@
+SHA1 - código gerado pelo GIT para cada arquivo (caracter carcterístico)
+Blob - objeto com tipo, tamanho, contém um /0 e o conteúdo do arquivo
+tree - aramazena os blobs (e aponta para os mesmos) e também pode apontar p/ outras árvores
+commit - aponta p/ uma árvore, para um commit anterior, para um autro e também para uma msg
+
+
+dir -> listar os diretórios na pasta que se encontra
+cd (change directory, cd/) -> nos leva para a base do diretório em que estivermos
+cd Windows -> entra na pasta Windows
+cd .. -> retrocede 1 npuvel da navegação de pastas
+cls -> limpa o cmd (para o Git usasse o atalho Ctrl+l)
+TAB -> autocompletar
+mkdir "nome" -> cria pastas
+echo -> imprime na tela o que foi digitado anteriormente
+> -> joga a saída do comando anterior em um arquivo 
+del -> deleta um arquivo de um diretório passado
+seta pra cima (atalho) -> alcança os comandos usados anteriormente
+rmdir -> remove diretório
+
+ls -> listar os arquivos
+git init -> inicia o git
+git add -> move arquivos Untracked p/ a staged (add . ou add -A adiciona todos)
+git commit -m "msg" -> envelopa os arquivos da staged em uma mensagem, criando-os no git commit
+git status -> apresenta os status do arquivo
+
+ls -a -> mostar arquivos ocultos
+staged - arquivos que estão se preparando para atuar, para executar uma ação
+git config --global user.name "   " -> configura nome
+git config --global user.email "   " -> configura e-mail
+git config --global --unsetuser.name -> apaga nome
+git config --global --unsetuser.email -> apaga e-mail
+git remote add origin -> adiciona o https do repositório
+git push origin master -> empurra os arquivos locais para o Github
+git pull origin master -> faz a importação dos arquivos locais do Github
+git clone https... -> clona um repositorio para a sua máquina
