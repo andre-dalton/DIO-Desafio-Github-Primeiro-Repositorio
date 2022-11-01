@@ -24,6 +24,7 @@ git commit -m "msg" -> envelopa os arquivos da staged em uma mensagem, criando-o
 git status -> apresenta os status do arquivo
 git remote -v -> mostra os repositórios remotos nos quais o repositório local está linkado
 git checkout -b -> move de uma branch para outra (ex: main para master, etc)
+git merge -> se move para a branch de sua escolha e posteriormente, une as duas branches que vc deseja unir
 
 ls -a -> mostar arquivos ocultos
 staged - arquivos que estão se preparando para atuar, para executar uma ação
