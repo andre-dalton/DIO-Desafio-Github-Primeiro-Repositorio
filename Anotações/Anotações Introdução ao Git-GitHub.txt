@@ -23,6 +23,7 @@ git add -> move arquivos Untracked p/ a staged (add . ou add -A adiciona todos)
 git commit -m "msg" -> envelopa os arquivos da staged em uma mensagem, criando-os no git commit
 git status -> apresenta os status do arquivo
 git remote -v -> mostra os repositórios remotos nos quais o repositório local está linkado
+git checkout -b -> move de uma branch para outra (ex: main para master, etc)
 
 ls -a -> mostar arquivos ocultos
 staged - arquivos que estão se preparando para atuar, para executar uma ação
