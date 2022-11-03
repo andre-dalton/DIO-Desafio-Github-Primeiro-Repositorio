@@ -32,7 +32,7 @@ git branch -m nome atual nome novo -> muda o nome de uma branch sem que você pr
 git branch -d nome da branch -> deleta a branch com o nome que veio depois
 git stash save "Descrição" -> cria o stash, empurrando para eles os aquivos que você indicou
 git stash list -> lista os arquivos que estão no stash
-git stash pop index do stash no array -> "estoura" o stash, fazendo com que os arquivos que foram armazaneados lá voltem para a branch
+git stash pop (index do stash no array) -> "estoura" o stash, fazendo com que os arquivos que foram armazaneados lá voltem para a branch
 git stash clear -> limpa um stash criado 
 git log -> mostra o histórico do que foi realizado no repositório
 : q -> permite sair das linhas do histórico do git log
