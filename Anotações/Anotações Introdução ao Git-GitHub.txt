@@ -24,7 +24,27 @@ git commit -m "msg" -> envelopa os arquivos da staged em uma mensagem, criando-o
 git status -> apresenta os status do arquivo
 git remote -v -> mostra os repositórios remotos nos quais o repositório local está linkado
 git checkout -b -> move de uma branch para outra (ex: main para master, etc)
+git checkout -b nome da branch -> cria a branch e se move para a mesma
 git merge -> se move para a branch de sua escolha e posteriormente, une as duas branches que vc deseja unir
+git branch -> apresenta na tela as branchs associadas ao repositório em que você se encontra
+git branch -m -> muda o nome da branch na qual você se encontra
+git branch -m nome atual nome novo -> muda o nome de uma branch sem que você precise se mudar para ela
+git branch -d nome da branch -> deleta a branch com o nome que veio depois
+git stash save "Descrição" -> cria o stash, empurrando para eles os aquivos que você indicou
+git stash list -> lista os arquivos que estão no stash
+git stash pop index do stash no array -> "estoura" o stash, fazendo com que os arquivos que foram armazaneados lá voltem para a branch
+git stash clear -> limpa um stash criado 
+git log -> mostra o histórico do que foi realizado no repositório
+: q -> permite sair das linhas do histórico do git log
+git log nome da pasta -> apresenta o histórico da pasta em questão, ao invés de todo o repositório
+git log nome do arquivo -> apresenta o histórico de um arquivo em questão, ao invés de todo o repositório
+git log --online -> traz o histórico resumido por linhas
+git log --graph -> traz as branchs em sistemas de linhas, onde pode se ver com maior clareza quando branchs foram criadas, ou fundidas a outras
+gitk -> abre uma inteface gráfica que apresenta a interface do graph de forma mais visual
+git reset --soft HEAD~posição que você deseja que fique o HEAD -> move os arquivos para o index
+git reset --mixed HEAD~posição que você deseja que fique o HEAD -> move os arquivos para o working directory
+git reset --hard HEAD~posição que você deseja que fique o HEAD -> limpa(exclui) os arquivos do commit (faz com que esse nunca tivesse existido)
+git revert -> reverte um commit realizado anteriormente
 
 ls -a -> mostar arquivos ocultos
 staged - arquivos que estão se preparando para atuar, para executar uma ação
@@ -36,3 +56,6 @@ git remote add origin -> adiciona o https do repositório
 git push origin master -> empurra os arquivos locais para o Github
 git pull origin master -> faz a importação dos arquivos locais do Github
 git clone https... -> clona um repositorio para a sua máquina
+
+conventional commits(site)
+semver(site)
